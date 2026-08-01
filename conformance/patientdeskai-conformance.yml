@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://patientdesk.ai/llms.txt (provider-published)
+notes: >-
+  Patientdesk.ai publishes no OpenAPI or developer documentation. The claims below
+  are self-asserted by the provider in its llms.txt and privacy policy. No
+  independent audit report, trust center, or certificate page was found
+  (probe-security-programs: trust=none). Evidence is the provider's own statement.
+standards:
+- id: hipaa
+  name: HIPAA
+  conforms: true
+  evidence: >-
+    llms.txt states "HIPAA compliant"; privacy policy documents HIPAA compliance and
+    PHI handling for a US healthcare product.
+- id: soc2
+  name: SOC 2
+  conforms: true
+  evidence: >-
+    llms.txt states the product "follows SOC 2 security standards". No SOC 2 report
+    or attestation letter is publicly linked.
+- id: ccpa
+  name: CCPA / CPRA
+  conforms: true
+  evidence: >-
+    Privacy policy documents CCPA/CPRA consumer rights (California-based company).

@@ -1,22 +1,78 @@
 aid: patientdeskai
-name: Patientdeskai
-description: Patientdeskai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patientdeskai.png
+name: Patientdesk.ai
+description: >-
+  Patientdesk.ai (Patientdesk AI, Inc.) is a California-based, Y Combinator-backed
+  company building an AI-native operating system for dental practices. Its 24/7 AI
+  phone receptionist handles inbound and outbound patient calls, appointment
+  scheduling, real-time insurance verification during the call, automated payment
+  collection and debt follow-up, intake, reminders, and lead generation. The product
+  integrates directly with major dental practice management systems (Dentrix, Open
+  Dental, Eaglesoft, Curve Dental, and others) to book patients straight into a
+  clinic's calendar. Patientdesk.ai is HIPAA compliant, follows SOC 2 security
+  standards, supports multiple languages, and is offered on month-to-month contracts.
+  This profile was surfaced as a Y Combinator (Winter 2026) portfolio company and
+  added to the API Evangelist network. No public developer/API surface (OpenAPI,
+  docs, SDKs) is currently published; the company exposes a marketing site and a
+  provider-authored llms.txt.
 url: https://raw.githubusercontent.com/api-evangelist/patientdeskai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- elevenlabs-grants
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Dental
+- Artificial Intelligence
+- Voice AI
+- Insurance Verification
+- Scheduling
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/patientdeskai-domain-security.yml
+- type: Conformance
+  url: conformance/patientdeskai-conformance.yml
+- type: Compliance
+  url: conformance/patientdeskai-conformance.yml
+- type: Website
+  url: https://www.patientdesk.ai/
+- type: Blog
+  url: https://www.patientdesk.ai/blog
+- type: PrivacyPolicy
+  url: https://www.patientdesk.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.patientdesk.ai/terms-conditions
+- type: SignUp
+  url: https://www.patientdesk.ai/book-a-call
+- type: LLMsTxt
+  url: llms/patientdeskai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

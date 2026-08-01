@@ -1,0 +1,30 @@
+# Patientdesk.ai
+
+> Patientdesk.ai is the AI booking system for dental practices. It automatically handles patient calls, appointment scheduling, real-time insurance verification, payment collection, and follow-ups 24/7 — helping dental clinics increase revenue and never miss a patient call again.
+
+Patientdesk AI, Inc. is a California-based company backed by Y Combinator. The product is an AI receptionist that integrates with major practice management systems (Dentrix, Open Dental, Eaglesoft, and more) to book appointments directly, verify insurance in real-time during calls, and collect outstanding payments automatically.
+
+Key capabilities:
+- 24/7 AI phone receptionist for dental practices
+- Real-time insurance verification during patient calls
+- Automated payment collection and debt follow-up
+- Direct PMS integration (Dentrix, Open Dental, Eaglesoft, Curve Dental, etc.)
+- Lead generation and patient acquisition
+- Multi-language support
+- Month-to-month contracts with refundable setup fee
+- HIPAA compliant with SOC 2 security standards
+- No medical triage — follows clinic guidelines only
+
+## Pages
+
+- [Homepage](https://www.patientdesk.ai/): Main landing page with features, integrations, comparison table, testimonials, and FAQ
+- [AI Patient Sales Coordinator](https://www.patientdesk.ai/ai-patient-sales-coordinator): Dedicated page for the AI sales coordinator product
+- [Privacy Policy](https://www.patientdesk.ai/privacy-policy): Data collection, HIPAA compliance, CCPA/CPRA rights, security measures
+- [Terms and Conditions](https://www.patientdesk.ai/terms-conditions): Service terms, no medical triage disclaimer, data protection, California law
+
+## Company
+
+- Website: https://www.patientdesk.ai
+- Email: info@patientdesk.ai
+- Backed by: Y Combinator, ElevenLabs Grants
+- Location: California, United States
