@@ -1,0 +1,150 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.patientdesk.ai/pricing
+sources:
+- https://www.patientdesk.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Dental practice product pricing page with many per-product plans; prices shown in US dollars (toggle
+  for Australia/United States). Ad spend paid separately.
+plan_count: 18
+currency: USD
+plans:
+- name: AI Receptionist — Solo Inbound
+  price_text: US$250 per location / month
+  price: 250
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: 1 operational chair, up to 6 appointment types, English + Spanish, unlimited inbound
+    minutes and concurrent calls, email support
+  overage: Priority WhatsApp support +US$100 / month; AI website chat + booking widget +US$150 / month;
+    additional locations 50% off
+- name: AI Receptionist — Small Practice Inbound
+  price_text: US$350 per location / month
+  price: 350
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: 2 chairs, up to 6 appointment types, English + Spanish
+  overage: Priority WhatsApp support +US$150 / month; AI website chat + booking widget +US$150 / month
+- name: AI Receptionist — Practice Inbound
+  price_text: US$500 per location / month
+  price: 500
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: 3+ chairs, up to 10 appointment types, all supported languages, chat widget included
+  overage: Priority WhatsApp support +US$250 / month
+- name: Recall & reactivation agents · add-on
+  price_text: 10% of collected revenue from Patientdesk bookings
+  price: 10
+  period: month
+  unit: '% of collected revenue'
+  included_quota: No setup or fixed monthly fee
+- name: Meta Ads Starter
+  price_text: US$500 per month · up to US$10,000 ad spend
+  currency: USD
+  period: month
+  included_quota: 1 campaign type, basic nurturing, email support
+  overage: Each additional US$10,000 ad spend bracket +US$1,000 / month; Outbound Voice AI +US$1,000 /
+    month
+- name: Meta Ads Management
+  price_text: US$1,500 per month · up to US$10,000 ad spend
+  currency: USD
+  period: month
+  included_quota: 2 campaign types, weekly reporting, priority WhatsApp support
+  overage: Each additional US$10,000 ad spend bracket +US$1,000 / month
+- name: Google Ads Starter
+  price_text: US$500 per month · up to US$10,000 ad spend
+  currency: USD
+  period: month
+  included_quota: 1 Emergency Dentist Search campaign
+  overage: Each additional US$10,000 ad spend bracket +US$1,000 / month
+- name: Google Ads Management
+  price_text: US$1,500 per month · up to US$10,000 ad spend
+  currency: USD
+  period: month
+  included_quota: 4 core dental Search campaigns + Local Services Ads
+  overage: Each additional US$10,000 ad spend bracket +US$1,000 / month
+- name: ChatGPT Ads Management
+  price_text: US$250 per month · plus ad spend
+  price: 250
+  currency: USD
+  period: month
+  included_quota: Managed campaigns on ChatGPT, free Patientdesk CRM
+  overage: Ad spend paid separately
+- name: Meta AI Chatbot
+  price_text: US$250 per location / month
+  price: 250
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: Instagram and Facebook DMs, 24/7 AI conversations, PMS appointment management
+- name: SMS Chatbot
+  price_text: US$250 per location / month
+  price: 250
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: Two-way SMS conversations
+  overage: SMS message usage billed separately
+- name: Online Booking Portal — Full-time practitioner
+  price_text: US$40 per practitioner / month
+  price: 40
+  currency: USD
+  period: month
+  unit: per practitioner
+- name: Online Booking Portal — Part-time practitioner
+  price_text: US$20 per practitioner / month
+  price: 20
+  currency: USD
+  period: month
+  unit: per practitioner
+- name: AI Native PMS
+  price_text: US$0 Free forever
+  price: 0
+  currency: USD
+  period: month
+  included_quota: Free forever, plus SMS usage
+  overage: SMS US$0.10 per SMS segment
+- name: Google Review Automation
+  price_text: US$15 per published 4- or 5-star review
+  price: 15
+  currency: USD
+  period: per-use
+  unit: per published 4- or 5-star review
+  included_quota: No setup fee or monthly subscription
+- name: AI SEO Bot
+  price_text: US$400 per month
+  price: 400
+  currency: USD
+  period: month
+  included_quota: 16 blogs per month
+- name: Website Management
+  price_text: US$350 per month
+  price: 350
+  currency: USD
+  period: month
+  included_quota: Ongoing website management
+- name: Full Buildout
+  price_text: US$20,000 for one clinic location
+  price: 20000
+  currency: USD
+  period: one-time
+  unit: one clinic location
+  included_quota: Buildout + 6 months of marketing
+  overage: Multiple locations require a custom quote; ad spend paid separately
+rate_limit_statements:
+- 'Inbound minutes: unlimited'
+- 'Concurrent calls: unlimited'
