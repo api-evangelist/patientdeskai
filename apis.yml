@@ -59,6 +59,10 @@ tags:
 - Y Combinator
 apis: []
 common:
+- type: Pricing
+  url: https://www.patientdesk.ai/pricing
+- type: Plans
+  url: plans/patientdeskai-plans-pricing.yml
 - type: DomainSecurity
   url: security/patientdeskai-domain-security.yml
 - type: Conformance
